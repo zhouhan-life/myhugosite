@@ -1,0 +1,22 @@
+baseURL = "https://zhouhan-life.github.io/"
+languageCode = "zh-CN"
+title = "周含 · 数字自留地"
+theme = "diary"
+hasCJKLanguage = true
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "首页"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "diary"
+    name = "舞蹈日记"
+    url = "/diary/"
+    weight = 2
+  [[menu.main]]
+    identifier = "asset"
+    name = "数字资产"
+    url = "/asset/"
+    weight = 3
